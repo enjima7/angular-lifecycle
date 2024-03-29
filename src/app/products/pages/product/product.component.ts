@@ -33,10 +33,10 @@ export class ProductComponent implements OnInit, OnChanges, DoCheck, AfterConten
     console.log('ngAfterViewInit')
   }
   ngAfterViewChecked(): void {
-    throw new Error('Method not implemented.');
+    console.log('ngAfterViewChecked')
   }
   ngOnDestroy(): void {
-    throw new Error('Method not implemented.');
+    console.log('ngOnDestroy')
   }
 
   increasePrice(){
